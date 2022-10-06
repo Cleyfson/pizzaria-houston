@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./src/images/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Pizzaria Houston</title>
+</head>
+
+<body>
+
+  <!--models de pizza na lista e no carrinho de compras-->
+  <div id="app" class="models">
+
+    <!--pizzas na lista-->
+    <div class="pizza-item">
+      <a href="">
+        <div class="pizza-item--img"><img src="" alt=""></div>
+        <div class="pizza-item--add">+</div>
+      </a>
+      <div class="pizza-item--price">R$ --</div>
+      <div class="pizza-item--name">--</div>
+      <div class="pizza-item--description"></div>
+    </div>
+
+    <!--pizza no carrinho-->
+    <div class="cart-item">
+      <img src="" alt="">
+      <div class="cart-item--name">--</div>
+      <div class="cart-item--area">
+        <button class="cart-item--remove">-</button>
+        <div class="cart-item--quant">1</div>
+        <button class="cart-item--add">+</button>
+      </div>
+
+    </div>
+
+    <!-- models -->
+
+    <!-- .menu-openner aparecera no modo mobile-->
+    <header>
+      <h1>Pizzaria Houston</h1>
+      <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <!--/menu-openner-->
+
+    <!--conteudo principal-->
+    <main>
+      <h2>Pizzas</h2>
+      <div class="pizza-area"></div>
+    </main>
+    <!--/conteudo principal-->
+
+
+    <!--aside do carrinho-->
+    <aside>
+      <div class="cart-area">
+        <div class="menu-closer">❌</div>
+        <h1>Suas Pizzas</h1>
+        <div class="cart"></div>
+        <div class="cart-details">
+          <div class="cart-totalitem subtotal">
+            <span>Subtotal</span>
+            <span>R$ --</span>
+          </div>
+          <div class="cart-totalitem descount">
+            <span>Total</span>
+            <span>R$ --</span>
+          </div>
+          <div class="cart-finish">Finalizar a compra</div>
+        </div>
+      </div>
+    </aside>
+    <!--/aside do carrinho-->
+
+    <!-- janela modal .pizza-window-area -->
+    <div class="pizza-window-area">
+      <div class="pizza-window-body">
+        <div class="pizza-info--cancel-mobile-btn">Voltar</div>
+        <div class="pizza-big">
+          <img src="" />
+        </div>
+        <div class="pizza-info">
+          <h1>--</h1>
+          <div class="pizza-info--desc">--</div>
+          <div class="pizza-info--size-area">
+            <div class="pizza-info--sector">Tamanho</div>
+            <div class="pizza-info--sizes">
+              <div data-key="0" class="pizza-info--size">PEQUENA<span>--</span></div>
+              <div data-key="1" class="pizza-info--size">MÉDIA <span>--</span></div>
+              <div data-key="2" class="pizza-info--size selected">GRANDE <span>--</span></div>
+            </div>
+          </div>
+          <div class="pizza-info--price-area">
+            <div class="pizza-info--sector">Preço</div>
+            <div class="pizza-info--price">
+              <div class="pizza-info--actual-price">R$ --</div>
+              <div class="pizza-info--area">
+                <button class="pizza-info--remove">-</button>
+                <div class="pizza-info--qt">1</div>
+                <button class="pizza-info--add">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="pizza-info--add-btn">Adicionar ao carrinho</div>
+          <div class="pizza-info--cancel-btn">Cancelar</div>
+        </div>
+      </div>
+    </div>
+    <!-- /janela modal .pizza-window-area -->
+  </div>
+  <script src="./src/pizzas.js"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
