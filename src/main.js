@@ -293,8 +293,8 @@ pizzaJson.map((item, index) => {
 });
 
 changeQuantity();
-
+openCart();
 addOnCart();
-// updateCart();
-// closeCart();
-// finishBuy();
+updateCart();
+closeCart();
+finishBuy();
