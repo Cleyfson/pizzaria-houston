@@ -253,8 +253,8 @@ const updateCart = () => {
 const finishBuy = () => {
   select('.cart-finish').addEventListener('click', () => {
     select('aside').classList.remove('show');
+    select('main').style.width = '100vw';
     select('aside').style.left = '100vw';
-    select('header').style.display = 'flex';
   });
 };
 
