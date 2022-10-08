@@ -1,3 +1,5 @@
+import pizzaJson from './pizzas';
+
 // variaveis globais
 let modalKey = 0;
 let quantityPizzas = 1;
