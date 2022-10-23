@@ -8,7 +8,7 @@ this project is an application made in order to develop and deepen my skills wit
   <img alt="email" src="./public/site/pizzaria-houston2.png">
   <img alt="email" src="./public/site/pizzaria-houston3.png">
   <div style="display: flex;
-              justify-content: space-around">
+              justify-content: space-between">
     <img height="850px" width="400px" align="center" alt="email" src="./public/site/pizzaria-houston4.png">
     <img height="850px" width="400px" align="center" alt="email" src="./public/site/pizzaria-houston7.png">
   </div>
