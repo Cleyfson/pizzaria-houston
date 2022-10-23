@@ -5,6 +5,12 @@ this project is an application made in order to develop and deepen my skills wit
 ## Layout of the Application:
 
   <img alt="email" src="./public/site/pizzaria-houston.png">
+  <img alt="email" src="./public/site/pizzaria-houston2.png">
+  <img alt="email" src="./public/site/pizzaria-houston3.png">
+  <div style="display: flex">
+    <img align="center" alt="email" src="./public/site/pizzaria-houston4.png">
+    <img align="center" alt="email" src="./public/site/pizzaria-houston7.png">
+  </div>
 
 ## Launching the App:
 
