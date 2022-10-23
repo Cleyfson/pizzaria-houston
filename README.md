@@ -4,6 +4,8 @@ this project is an application made in order to develop and deepen my skills wit
 
 ## Layout of the Application:
 
+  <img alt="email" src="./public/site/pizzaria-houston.png">
+
 ## Launching the App:
 
 ### Pre requirements
